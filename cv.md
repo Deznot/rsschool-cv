@@ -9,3 +9,12 @@
    Date of birth: 03 Nov 1995<br>
    Nationality: Belarus<br>
    Marital status: single<br>
+   
+3. ## Personal qualities
+
+   * Versatile
+   * Perceptive
+   * Open-minded
+   * Eager to learn
+   * Courteous
+   * Communicative
