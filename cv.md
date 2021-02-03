@@ -41,3 +41,11 @@
         return await res.json();
     };
     ```
+
+6. ## Work experience
+
+    Educational projects:
+        [Windows](https://github.com/Deznot/project-Windows.git)
+        [Pictures](https://github.com/Deznot/Pictures.git)
+        [Loan](https://github.com/Deznot/project-Loan.git)
+        [Library](https://github.com/Deznot/LibraryUI.git)
