@@ -49,3 +49,9 @@
         [Pictures](https://github.com/Deznot/Pictures.git)
         [Loan](https://github.com/Deznot/project-Loan.git)
         [Library](https://github.com/Deznot/LibraryUI.git)
+
+7. ## Education
+
+    Mozyr State Pedagogical University department of Physics and Engineering<br>
+    qualification mathematician-programmer teacher of mathematics and computer<br>
+    science, udemy courses.<br>
