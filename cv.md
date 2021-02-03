@@ -9,7 +9,7 @@
    Date of birth: 03 Nov 1995<br>
    Nationality: Belarus<br>
    Marital status: single<br>
-   
+
 3. ## Personal qualities
 
    * Versatile
@@ -18,3 +18,11 @@
    * Eager to learn
    * Courteous
    * Communicative
+
+4. ## Special skills
+
+   * JsvaScript,html,css
+   * Git and GitHub
+   * SQL
+   * Excell, Word, PowerPoint
+   * SubLime, Visual Studio Code
