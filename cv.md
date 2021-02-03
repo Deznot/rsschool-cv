@@ -55,3 +55,6 @@
     Mozyr State Pedagogical University department of Physics and Engineering<br>
     qualification mathematician-programmer teacher of mathematics and computer<br>
     science, udemy courses.<br>
+
+8. ## English language
+   level: pre-Intermediate 
