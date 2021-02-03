@@ -26,3 +26,18 @@
    * SQL
    * Excell, Word, PowerPoint
    * SubLime, Visual Studio Code
+
+5. ## Code example
+    ```
+    let postData = async(url,data) => {
+        let res = await fetch(url,{
+            method : "POST",
+            headers : {
+                'Content-type' : 'application/json'
+            },
+            body: data
+        });
+
+        return await res.json();
+    };
+    ```
