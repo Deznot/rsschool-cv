@@ -149,3 +149,81 @@ a {
     text-decoration: none;
     margin: 16px;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mleft,.mright{
+        width: 100%;
+    }
+
+    main {
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .mleft {
+        width: 30%;
+    }
+
+    .mright {
+        width: 70%;
+    }
+
+
+    .mleft figcaption {
+        display: none;
+    }
+
+    .name {
+        display: block;
+        padding: 40px;
+    }
+
+    .mright h3 {
+        display: inline-block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mleft figcaption {
+        display: none;
+    }
+
+    .name {
+        display: block;
+        padding: 40px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .mleft {
+        width: 30%;
+    }
+
+    .mright {
+        width: 70%;
+    }
+
+    .mleft figcaption {
+        display: none;
+    }
+
+    .name {
+        display: block;
+        padding: 40px;
+    }
+}
