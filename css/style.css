@@ -26,6 +26,17 @@ footer {
     box-shadow: 0 0 5px rgba(0,0,0, .5);
     margin: 10% 0 0 0;
     padding: 1%;
+    text-align: center;
+}
+
+footer img {
+    width: 5%;
+}
+
+footer strong {
+    /* display: inline-block; */
+    color: #fff;
+    margin: 16px;
 }
 
 footer a {
