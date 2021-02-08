@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <h1>CV</h1>
+    </header>
+    <main>
+        <div class="mleft">
+            <section class="information">
+                <figure>
+                    <img src="img/066efXPJP7I2.jpg" alt="Photo">
+                    <figcaption>Denis Sialitski</figcaption>
+                </figure>
+                <h2>Personal information</h2>  
+                <ul>
+                    <li>Address:  Zhlobin, Belarus</li>
+                    <li>Telephone: mobile: +375295621456</li>
+                    <li>Email: denis.selitsky@gmail.com</li>
+                    <li>Date of birth: 03 Nov 1995</li>
+                    <li>Nationality: Belarus</li>
+                    <li>Marital status: single</li>
+                </ul>
+            </section>
+            <section class="Education">
+                <h2>Education</h2>
+                <p>Mozyr State Pedagogical University department of Physics and Engineering<br>
+                    qualification mathematician-programmer teacher of mathematics and computer<br>
+                    science,  udemy courses.<br>
+                </p>
+            </section>
+        </div>
+        <div class="mright">
+            <section class="name">
+                <h3 id="name"><strong>Denis Sialitski</strong></h3>
+            </section>
+            <section class="qualities">
+                <h2>Personal qualities</h2>
+                <ul>
+                    <li>Versatile</li>
+                    <li>Perceptive</li>
+                    <li>Open-minded</li>
+                    <li>Eager to learn</li>
+                    <li>Courteous</li>
+                    <li>Communicative</li>
+                </ul>    
+            </section>
+            <section class="skills">
+                <h2>Special skills</h2>
+                <ul>
+                    <li>JsvaScript,html,css</li>
+                    <li>Git and GitHub</li>
+                    <li>SQL</li>
+                    <li>Excell, Word, PowerPoint</li>
+                    <li>SubLime, Visual Studio Code</li>
+                </ul>        
+            </section>
+            <section class="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+    let postData = async(url,data) => {
+        let res = await fetch(url,{
+            method : "POST",
+            headers : {
+                'Content-type' : 'application/json'
+            },
+            body: data
+        });
+
+        return await res.json();
+    };
+                    </code>
+                </pre>
+            </section>
+            <section class="experience">
+                <h2>Work experience</h2>
+                <h3>Educational projects:</h3>
+                <a href="https://github.com/Deznot/project-Windows.git" target="_blank">Windows</a>
+                <a href="https://github.com/Deznot/Pictures.git" target="_blank">Pictures</a>
+                <a href="https://github.com/Deznot/project-Loan.git" target="_blank">Loan</a>
+                <a href="https://github.com/Deznot/LibraryUI.git" target="_blank">Library</a>
+            </section>
+            <section class="english">
+                <h2>English language</h2>   
+                <p>level:pre-Intermediate</p>    
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Deznot" target="_blank">https://github.com/Deznot</a>
+    </footer>
+</body>
+</html>
