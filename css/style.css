@@ -33,6 +33,20 @@ footer a {
     color: #F2F2F3;
 }
 
+footer a:link {
+    color: #fff;
+}
+
+footer a:visited {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #F2C200;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -128,6 +142,7 @@ ul li {
     padding-right: 5px;
     list-style-type: disc;
     margin: 16px;
+    overflow-wrap: break-word;
 }
 
 a {
