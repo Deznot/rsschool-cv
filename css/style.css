@@ -54,10 +54,6 @@ main {
     object-fit: cover;
 }
 
-.mleft figure {
-    margin: 0;
-}
-
 .mleft figcaption {
     text-align: center;
     padding: 40px;
@@ -68,3 +64,34 @@ main {
 .mright {
     background-color: #fff;
 }
+
+.mright h2 {
+    background-color: #EBEBEB;
+}
+
+.name {
+    display: none;
+    font-size: 40px;
+}
+ 
+.english big {
+    margin: 0px;
+    border: none;
+    padding: 0;
+}
+
+.experience a:link {
+    color: black;
+}
+
+.experience a:visited {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #A9A9A9;
+}
+
+.experience a:hover {
+    text-decoration: underline;
+    color: #F2C200;
+}
+
