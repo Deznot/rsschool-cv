@@ -1,1 +1,70 @@
 @import "reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+header h1 {
+    color: #F2F2F3;
+}
+
+header {
+    background-color: #343945;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    padding: 1%;
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: #343945;
+    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    margin: 10% 0 0 0;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F2F2F3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(0,0,0, .5);
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.mleft {
+    background-color: #343945;
+    color: #F2F2F3;
+}
+
+.mleft img {
+    display: block; 
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.mleft figure {
+    margin: 0;
+}
+
+.mleft figcaption {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    color: #F2F2F3;
+}
+
+.mright {
+    background-color: #fff;
+}
